@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Muebles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .product {
+            flex: 1 1 calc(33.333% - 20px);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            background-color: #fff;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .product p {
+            color: #777;
+        }
+        .product button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: #4cae4c;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Muebles</h1>
+    </header>
+
+    <div class="container">
+        <h1>Productos Destacados</h1>
+        <div class="product-grid">
+            <div class="product">
+                <img src="sofa.jpg" alt="Sofá">
+                <h3>Sofá Moderno</h3>
+                <p>$499.99</p>
+                <button>Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="silla.jpg" alt="Silla">
+                <h3>Silla de Comedor</h3>
+                <p>$199.99</p>
+                <button>Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="mesa.jpg" alt="Mesa">
+                <h3>Mesa de Centro</h3>
+                <p>$299.99</p>
+                <button>Agregar al Carrito</button>
+            </div>
+    
